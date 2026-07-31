@@ -27,12 +27,6 @@ python3 -m venv venv
 Then open the printed local URL, pick an instrument in the sidebar, and click
 **Fetch data & run analysis**.
 
-## Testing
-
-```bash
-./venv/bin/pytest tests/
-```
-
 ## Notes
 
 - Data comes from Yahoo Finance via `yfinance`, cached locally for 6 hours
